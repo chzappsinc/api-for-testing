@@ -6,7 +6,7 @@ Test API's for testing and studying purpose
 
 Available Api's
 - [Create User](#create-user-account)
-- [Login User](#login)
+- [Login User](#login-user)
 
 
 ## Auth
