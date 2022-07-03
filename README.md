@@ -67,7 +67,7 @@ Response :
 ### Login user
 
 ```http
-  GET /users/login
+  POST /users/login
 ```
 
 Body
@@ -114,4 +114,57 @@ Response :
     }
 }
 ```
+
+### User Details
+
+```http
+  GET /users/user-details
+```
+
+Headers : 
+
+authorization  : `Bearer eyJhbGciOiJIUz...`
+
+Body
+
+| Key | Value     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `username`      | `string` | **Required**. username |
+
+#### Response
+
+**Status code** : _**500**_ (No such user)
+
+Response : 
+```json
+{
+    "message": "No such user found",
+    "MessageChannel": 1
+}
+```
+
+**Status code** : _**401**_ (Missing username field)
+
+Response : 
+```json
+{
+    "message": "username is missing"
+}
+```
+
+**Status code** : _**200**_ (succesfully fetch)
+
+Response : 
+```json
+{
+    "username": "rogers",
+    "first_name": "david",
+    "last_name": "rouge",
+    "verified": 1,
+    "gender": "male"
+}
+```
+
+
+---END---
 
