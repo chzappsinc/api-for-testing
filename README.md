@@ -5,7 +5,7 @@ Test API's for testing and studying purpose
 **Base Url :** [https://demo-api.chzdemo.xyz/](https://demo-api.chzdemo.xyz/)
 
 Info : 
-Backend : `Node.js`
+Backend : `Node.js` [CODE](https://github.com/chzappsinc/test_api/tree/master/chz-study-api)
 
 Database : `MySQL`
 
