@@ -20,7 +20,7 @@ Available Api's
 
 ### Create user account
 
-```http
+```js
   POST /user/create-account
 ```
 Body:
@@ -69,7 +69,7 @@ Response :
 
 ### Login user
 
-```http
+```js
   POST /users/login
 ```
 
@@ -120,7 +120,7 @@ Response :
 
 ### User Details
 
-```http
+```js
   GET /users/user-details
 ```
 
@@ -212,5 +212,7 @@ Response :
 
 
 
----END---
+# © CHZAPPS INDIA
+
+Author : Jasim T K
 
