@@ -166,6 +166,49 @@ Response :
 }
 ```
 
+## Upload Files
+
+```js
+  GET /upload/file
+```
+
+
+Body
+
+| Key | Value     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `file`      | `file` | **Required**. file  |
+
+#### Response
+
+**Status code** : _**500**_ (No files Selected)
+
+Response : 
+```json
+{
+    "message": "No file selected in file field"
+}
+```
+
+**Status code** : _**200**_ (succesfully Uploaded)
+
+**Files will automatically deleted after 30Minutes**
+
+Response : 
+```json
+{
+    "message": "file uploaded",
+    "download_uri": "https://t.files.chzapps.com/507991491a1e4723/Share_Tech_Mono.zip",
+    "expire": "04 Mon, Jul, 2022 12:27 am",
+    "autoDelete": true,
+    "fileName": "Share_Tech_Mono.zip",
+    "memeType": "application/zip",
+    "original_name": "Share_Tech_Mono.zip",
+    "size": "22.95 KB"
+}
+```
+
+
 
 ---END---
 
