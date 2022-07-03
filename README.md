@@ -11,6 +11,7 @@ Database : `MySQL`
 Available Api's
 - [Create User](#create-user-account)
 - [Login User](#login-user)
+- [User details](#user-details)
 
 
 ## Auth
