@@ -4,6 +4,10 @@ Test API's for testing and studying purpose
 
 **Base Url :** https://demo.chzapps.com/api/
 
+Available Api's
+- [Create User](#create-user-account)
+- [Login User](#login)
+
 
 ## Auth
 
