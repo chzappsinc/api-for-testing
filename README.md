@@ -2,7 +2,7 @@
 
 Test API's for testing and studying purpose
 
-**Base Url :** https://demo.chzapps.com/api/
+**Base Url :** [https://demo.chzapps.com/api/](https://demo-api.chzdemo.xyz/)
 
 Info : 
 Backend : `Node.js`
